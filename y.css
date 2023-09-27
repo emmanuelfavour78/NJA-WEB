@@ -1,0 +1,102 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: rgb(10, 109, 148);  
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header div {
+  
+}
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+
+main {
+  padding: 20px;
+}
+
+.hero {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+
+/* Style for the <video> element */
+video {
+  width: 100%; /* Make the video responsive */
+  max-width: 600px; /* Set a maximum width */
+  display: block; /* Remove any default inline styling */
+  margin: 0 auto; /* Center the video horizontally */
+}
+
+/* Style for the paragraph within the <video> element */
+video p {
+  text-align: center; /* Center the text */
+  margin-top: 10px; /* Add some spacing above the text */
+  color: #555; /* Text color for unsupported message */
+  font-size: 16px; /* Font size */
+}
+
+/* Style for the link within the paragraph */
+video p a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+/* Style for the link when hovered */
+video p a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Style for the image container (parent) */
+.image-container {
+  text-align: center; /* Center-align its contents horizontally */
+}
+
+/* Style for the image */
+.image-container img {
+  display: block; /* Remove any default inline styling */
+  margin: 0 auto; /* Center-align the image horizontally */
+  display: flex;
+}
+
+.image-container-1 {
+  text-align: center; /* Center-align its contents horizontally */
+}
